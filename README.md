@@ -101,6 +101,7 @@ AudioPlayManager.getInstance().init(this)//初始化播放
 ```
  
 ### 4.缓存获取及清理
+缓存清理的方法未做线程处理，是同步进行的方法，需要开发者自己开子线程调用
 ```
  Log.e(TAG, String.valueOf(AudioPlayManager.getInstance().getCacheSize(this)));//获取缓存大小
  Log.e(TAG, String.valueOf(AudioPlayManager.getInstance().clearCache(this)));//清除缓存，并返回清除的大小
