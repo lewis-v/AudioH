@@ -1,5 +1,5 @@
 # AudioH
-Android 语音录制及播放的处理
+Android 语音录制及播放的处理,基于MediaPlayer(播放) 和MediaRecorder (录制)
 
 ## 实现功能
 1.实现Android语音录制的功能（目前封装只支持AMR格式）；
